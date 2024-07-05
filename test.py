@@ -6,7 +6,8 @@ print("type of a =",type(a))
 b=4.3   #float
 print("type of b =",type(b))
  
- c="sohan"   #string
+ 
+c="sohan"   #string
 print("type of c =",type(c))
 
 d=(3,4,6,"sohan","school")     # tuple
@@ -25,3 +26,4 @@ print("type of g =",type(g))
 
 h={"Name":"rayhan","Department":"CSE","ID":8895018} #dictionary
 print("type of h =",type(h))
+
