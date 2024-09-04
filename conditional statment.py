@@ -21,23 +21,22 @@ else:
 
 
 
-
 name = input("Enter your name: ")
 
 if name=="rakib":
-    print("My is Rakib")
+    print("My name is Rakib")
 
 elif name=="hassan":
-    print("My is Hassan")
+    print("My name is Hassan")
 
 elif name=="tanin":
-    print("My is Tanin")
+    print("My name is Tanin")
 
 elif name=="emon":
-    print("My is Emon")
+    print("My name is Emon")
 
 else:
-    print("Anonimous Name")
+    print("Anonimous  Name")
 
 
 

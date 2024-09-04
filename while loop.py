@@ -119,7 +119,7 @@ while i < 6:
     i += 1       # 1, 2, 3, 4, 5, 6
     if i == 3:
         continue
-    print(i)      ## 1, 2, 4, 5, 6
+    print(i)      # 1, 2, 4, 5, 6
 
 
 
@@ -140,7 +140,7 @@ else:
 
 
              ##     99
-for i in range(10, 100, 20):  ## i = 101 30, 50, 70
+for i in range(10, 100, 20):  ## i = 101 30, 50, 70, 90
 
     for j in range(1, 5):        ## j = 1, 2, 3, 4
 
@@ -172,3 +172,7 @@ i = 90, j = 4
 
 """
 
+a=34
+b=43
+sum=a+b
+print(sum)
