@@ -1,31 +1,31 @@
-# # #data type
+# # # #data type
 
-# # a=5   #intger
-# # print("type of a =",type(a))
+# # # a=5   #intger
+# # # print("type of a =",type(a))
 
-# # b=4.3   #float
-# # print("type of b =",type(b))
+# # # b=4.3   #float
+# # # print("type of b =",type(b))
  
  
-# # # c="sohan"   #string
-# # # print("type of c =",type(c))
+# # # # c="sohan"   #string
+# # # # print("type of c =",type(c))
 
-# # # d=(3,4,6,"sohan","school")     # tuple
-# # # d=(3,4,6,"sohan","school")     # tuple
-# # # d=(3,4,6,"sohan","school")     # tuple
-# # # print("type of d=",type(d))
+# # # # d=(3,4,6,"sohan","school")     # tuple
+# # # # d=(3,4,6,"sohan","school")     # tuple
+# # # # d=(3,4,6,"sohan","school")     # tuple
+# # # # print("type of d=",type(d))
 
-# # # e={'3','5','mubin','a','d'}    #set
-# # # print("type of e=",type(e))
+# # # # e={'3','5','mubin','a','d'}    #set
+# # # # print("type of e=",type(e))
 
-# # # f=['h','h','j','r','k','kawser']#liste   
-# # # print("type of f =",type(f))
+# # # # f=['h','h','j','r','k','kawser']#liste   
+# # # # print("type of f =",type(f))
 
-# # # g=True #or False  #boolean
-# # # print("type of g =",type(g))
+# # # # g=True #or False  #boolean
+# # # # print("type of g =",type(g))
 
-# # # h={"Name":"rayhan","Department":"CSE","ID":8895018} #dictionary
-# # # print("type of h =",type(h))
+# # # # h={"Name":"rayhan","Department":"CSE","ID":8895018} #dictionary
+# # # # print("type of h =",type(h))
 
 
 # # # Print Function
@@ -66,7 +66,7 @@
 # print(type(b))
 # print(type(c))
 # print(d)
-##variable types checking
+# #variable types checking
 # a=23
 # a:int =23
 
@@ -83,4 +83,23 @@
 
 
 
+# def summation():
+#     a = 10
+#     b = 12
+#     print(a + b)
+#     return a + b
 
+# ## Now call this function
+# result = summation()
+# print(result) ## 22
+
+
+
+# a = "Bangladesh"
+# l = len(a)
+
+# print("length of `a`", l)  
+
+# for i in range(l): ## 0 1 2 3 4 5 6 7 8 9
+#     print(f"Index = {i},  Value = {a[i]}")
+    
