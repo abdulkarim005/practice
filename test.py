@@ -1,105 +1,31 @@
-# # # #data type
+def multiply(a):
+    return lambda b : a * b
 
-# # # a=5   #intger
-# # # print("type of a =",type(a))
-
-# # # b=4.3   #float
-# # # print("type of b =",type(b))
- 
- 
-# # # # c="sohan"   #string
-# # # # print("type of c =",type(c))
-
-# # # # d=(3,4,6,"sohan","school")     # tuple
-# # # # d=(3,4,6,"sohan","school")     # tuple
-# # # # d=(3,4,6,"sohan","school")     # tuple
-# # # # print("type of d=",type(d))
-
-# # # # e={'3','5','mubin','a','d'}    #set
-# # # # print("type of e=",type(e))
-
-# # # # f=['h','h','j','r','k','kawser']#liste   
-# # # # print("type of f =",type(f))
-
-# # # # g=True #or False  #boolean
-# # # # print("type of g =",type(g))
-
-# # # # h={"Name":"rayhan","Department":"CSE","ID":8895018} #dictionary
-# # # # print("type of h =",type(h))
+"""
+    => এই function টি কিন্তু 2 টি argument চাচ্ছে একটি multiply() এর `a` জন্যে,
+    অন্যটি lambda এর ভেতর `b` এর জন্যে।
+"""
 
 
-# # # Print Function
-# # name = "Rakib"
-# # b = 10
-# # c = 11.50
-
-# # print(name, b, c)
-
-# # ##print function 
-# # name ="karim"
-# # age=20
-# # address ="rajbari"
-# # # print("Name: ",name,"," "age: ",age, ", " "address: ",address)
-
-# # ##F string
-# # # print(f "Name: ",{name}, age: {age}, address: {address}")
-      
-# # print("name: {}, age: {}, addreas: {}".format(name,age,address))      
+## এখানে `a` এর value কে Constant করা হয়েছে।
+obj = multiply(5)
+"""
+NOTE:- If `multiply(5, 6)`, then TypeError: multiply() takes 1 positional argument but 2 were given
+তার মানে সে একটির বেশি parameter receive করে না।
+"""
 
 
+"""
+    => এখানে `b` এর value কে argument হিসেবে pass করা হেয়েছে, যা মূলত 
+    lambda function parameter হিসেবে accept করতেছে।
+"""
+result1 = obj(3)
+result2 = obj(4)
+result3 = obj(5)
+result4 = obj(6)
 
-# # Variables Type Checking
-# a = 10
-# a:int = 10
+print("Result 1 = ",result1)  ## Result 1 =  15  
+print("Result 2 = ",result2)  ## Result 2 =  20
+print("Result 3 = ",result3)  ## Result 3 =  25
+print("Result 4 = ",result4)  ## Result 4 =  30 
 
-
-# b = "Rakib"
-# b:str = "Rakib"
-
-# c = 12.25
-# c:float = 12.25
-
-# d = a
-# e = 't'
-
-# print(type(a))
-# print(type(b))
-# print(type(c))
-# print(d)
-# #variable types checking
-# a=23
-# a:int =23
-
-# b=41.3
-# b: float =41.3
-
-# c="a.karim"
-# c:string = "a.karim"
-
-
-# print(type(a))
-# print(type(b))
-# print(type(c))
-
-
-
-# def summation():
-#     a = 10
-#     b = 12
-#     print(a + b)
-#     return a + b
-
-# ## Now call this function
-# result = summation()
-# print(result) ## 22
-
-
-
-# a = "Bangladesh"
-# l = len(a)
-
-# print("length of `a`", l)  
-
-# for i in range(l): ## 0 1 2 3 4 5 6 7 8 9
-#     print(f"Index = {i},  Value = {a[i]}")
-    
